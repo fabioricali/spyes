@@ -27,7 +27,7 @@ npm install spyes --save
 ```javascript
 const spyes = require('spyes');
 
-new spyes(document.getElementById('#my-element'))
+new spyes(document.getElementById('my-element'))
     .onSize((newSize, oldSize)=> console.log('size changed', newSize, oldSize))
     .onPosition((newPosition, oldPosition)=> console.log('position changed', newPosition, oldPosition));
 ```

@@ -1,4 +1,4 @@
-// [AIV]  Spyes Build version: 0.0.0  
+// [AIV]  Spyes Build version: 1.0.0  
  (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -188,7 +188,7 @@ var Spyes = function () {
 
         /**
          * Update size
-         * @returns {{} & {width: number, height: number}}
+         * @returns {{width: number, height: number}}
          * @private
          * @ignore
          */
@@ -204,7 +204,7 @@ var Spyes = function () {
 
         /**
          * Get current size
-         * @returns {{} & ({width: number, height: number}|*)}
+         * @returns {{x: number, y: number}}
          * @private
          * @ignore
          */
@@ -241,7 +241,7 @@ var Spyes = function () {
 
         /**
          * Update position
-         * @returns {{} & {x: number, y: number}}
+         * @returns {{x: number, y: number}}
          * @private
          * @ignore
          */
@@ -258,7 +258,7 @@ var Spyes = function () {
 
         /**
          * Get current position
-         * @returns {{} & ({x: number, y: number}|*)}
+         * @returns {{x: number, y: number}}
          * @private
          * @ignore
          */

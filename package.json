@@ -1,6 +1,6 @@
 {
     "name": "spyes",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Detect when a DOM element changes size or position",
     "main": "dist/spyes.js",
     "scripts": {

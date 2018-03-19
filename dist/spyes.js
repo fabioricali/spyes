@@ -1,4 +1,4 @@
-// [AIV]  Spyes Build version: 1.0.0  
+// [AIV]  Spyes Build version: 1.0.1  
  (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();

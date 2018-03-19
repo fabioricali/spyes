@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+coverage/
+extra/
+test/
+examples/
+.travis.yml
+api.md
+version-to-tag.sh
+webpack.config.js
